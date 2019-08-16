@@ -1,8 +1,7 @@
-use crate::entity::create_entity;
+use crate::entity::{create_player};
 
 mod entity;
 
 fn main() {
-    let e = create_entity();
-    println!("{}", e.ident);
+    let mut player = create_player();
 }
