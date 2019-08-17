@@ -3,4 +3,11 @@ name = "kiwi"
 version = "0.1.0"
 authors = ["haihala <eero.haihala@gmail.com>"]
 edition = "2018"
+build = "build.rs"
 
+[dependencies]
+csfml-audio-sys = "0.4.0"
+csfml-system-sys = "0.4.0"
+csfml-graphics-sys = "0.4.0"
+csfml-window-sys = "0.4.0"
+sfml = "0.14.0"
