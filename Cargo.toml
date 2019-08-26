@@ -3,7 +3,6 @@ name = "kiwi"
 version = "0.1.0"
 authors = ["haihala <eero.haihala@gmail.com>"]
 edition = "2018"
-build = "build.rs"
 
 [dependencies]
 csfml-audio-sys = "0.4.0"
